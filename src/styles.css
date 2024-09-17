@@ -1,0 +1,17 @@
+@import url("/node_modules/bulma/css/bulma.min.css");
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url(./assets/Vazirmatn[wght].woff2);
+}
+
+:root {
+  --bulma-family-primary: Vazirmatn, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica, Arial, sans-serif;
+  --bulma-family-secondary: Vazirmatn, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica, Arial,
+    sans-serif;
+  --bulma-family-code: "JetBrains Mono", Inconsolata, Hack, monospace;
+}
+
+a:hover {
+  border-bottom: 2px solid currentColor;
+}

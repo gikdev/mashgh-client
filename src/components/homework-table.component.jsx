@@ -29,7 +29,7 @@ function HomeworkTable() {
           {homework.map(hw => (
             <tr key={hw.id}>
               <td>{hw.id}</td>
-              <td>{Enums.LessonsName[hw.lesson]}</td>
+              <td>{hw.lesson_name}</td>
               <td>
                 {hw.priority === Enums.HomeworkPriority.A && (
                   <span className="tag is-danger">A</span>
